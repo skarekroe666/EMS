@@ -1,0 +1,50 @@
+/* Container styling */
+.container {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Form wrapper styling */
+.form-wrapper {
+    border: 2px solid #059669; /* Emerald-600 color */
+    padding: 5rem; /* Equivalent to Tailwind's p-20 */
+    border-radius: 0.75rem; /* Equivalent to Tailwind's rounded-xl */
+}
+
+/* Form styling */
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Input styling */
+.input {
+    outline: none;
+    background-color: transparent;
+    border: 2px solid #059669; /* Emerald-600 color */
+    font-size: 1.25rem; /* Equivalent to Tailwind's text-xl */
+    padding: 0.75rem 1.25rem; /* py-3 px-5 */
+    border-radius: 9999px; /* Equivalent to Tailwind's rounded-full */
+    color: inherit; /* Text inherits color */
+    margin-bottom: 20px;
+}
+
+.input::placeholder {
+    color: #9ca3af; /* Gray-400 color for placeholder */
+}
+
+/* Button styling */
+.button {
+    color: white;
+    background-color: #059669; /* Emerald-600 color */
+    border: 2px solid transparent;
+    font-size: 1.25rem; /* Equivalent to Tailwind's text-xl */
+    padding: 0.75rem 1.25rem; /* py-3 px-5 */
+    border-radius: 9999px; /* Equivalent to Tailwind's rounded-full */
+    outline: none;
+}
